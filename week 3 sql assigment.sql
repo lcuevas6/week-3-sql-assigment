@@ -9,7 +9,7 @@ username VARCHAR(40) NOT NULL,
 email VARCHAR(40) NOT NULL,
 password VARCHAR(100) NOT NULL,
 PRIMARY KEY (user_id)
-users);
+);
 
 CREATE TABLE Posts(
 post_id INT NOT NULL AUTO_INCREMENT,
